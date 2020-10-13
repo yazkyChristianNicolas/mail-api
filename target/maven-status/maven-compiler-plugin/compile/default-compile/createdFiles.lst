@@ -1,0 +1,4 @@
+ar\com\yazkychristian\mailapi\beans\SendMailRequest.class
+ar\com\yazkychristian\mailapi\ServletInitializer.class
+ar\com\yazkychristian\mailapi\MailApiApplication.class
+ar\com\yazkychristian\mailapi\controllers\MailController.class

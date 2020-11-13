@@ -4,6 +4,8 @@ package ar.com.yazkychristian.mailapi;
 import java.io.File;
 import java.io.IOException;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -15,6 +17,8 @@ import freemarker.template.TemplateExceptionHandler;
 @SpringBootApplication
 public class MailApiApplication {
 	
+	Logger logger = LoggerFactory.getLogger(MailApiApplication.class);
+	
 	@Value("${freemarker.templates.path}")
 	private String freeMarkerTemplatePath;
 
@@ -24,8 +28,9 @@ public class MailApiApplication {
 	
 	@Bean
 	public Configuration freeMarkerConfig() throws IOException{
+		logger.info("Freemarker templates directory: " + freeMarkerTemplatePath);
 		Configuration cfg = new Configuration(Configuration.VERSION_2_3_29);
-		cfg.setDirectoryForTemplateLoading(new File(freeMarkerTemplatePath));
+		cfg.setDirectoryForTemplateLoading( new File(freeMarkerTemplatePath));
 		cfg.setDefaultEncoding("UTF-8");
 		cfg.setTemplateExceptionHandler(TemplateExceptionHandler.RETHROW_HANDLER);
 		cfg.setLogTemplateExceptions(false);

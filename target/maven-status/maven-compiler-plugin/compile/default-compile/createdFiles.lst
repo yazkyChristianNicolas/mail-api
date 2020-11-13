@@ -1,4 +1,7 @@
-ar\com\yazkychristian\mailapi\beans\SendMailRequest.class
 ar\com\yazkychristian\mailapi\ServletInitializer.class
-ar\com\yazkychristian\mailapi\MailApiApplication.class
+ar\com\yazkychristian\mailapi\rest\ApiError.class
+ar\com\yazkychristian\mailapi\rest\CustomRestExceptionHandler.class
 ar\com\yazkychristian\mailapi\controllers\MailController.class
+ar\com\yazkychristian\mailapi\beans\SendMailRequest.class
+ar\com\yazkychristian\mailapi\MailApiApplication.class
+ar\com\yazkychristian\mailapi\services\EmailService.class

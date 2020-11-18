@@ -1,7 +1,8 @@
-C:\Users\Christian\pagatutti-workspace\mail-api\src\main\java\ar\com\yazkychristian\mailapi\beans\SendMailRequest.java
-C:\Users\Christian\pagatutti-workspace\mail-api\src\main\java\ar\com\yazkychristian\mailapi\MailApiApplication.java
-C:\Users\Christian\pagatutti-workspace\mail-api\src\main\java\ar\com\yazkychristian\mailapi\services\EmailService.java
-C:\Users\Christian\pagatutti-workspace\mail-api\src\main\java\ar\com\yazkychristian\mailapi\rest\ApiError.java
-C:\Users\Christian\pagatutti-workspace\mail-api\src\main\java\ar\com\yazkychristian\mailapi\ServletInitializer.java
-C:\Users\Christian\pagatutti-workspace\mail-api\src\main\java\ar\com\yazkychristian\mailapi\controllers\MailController.java
-C:\Users\Christian\pagatutti-workspace\mail-api\src\main\java\ar\com\yazkychristian\mailapi\rest\CustomRestExceptionHandler.java
+C:\Users\Christian\encodemmerce-workspace\mail-api\src\main\java\ar\com\yazkychristian\mailapi\services\EmailService.java
+C:\Users\Christian\encodemmerce-workspace\mail-api\src\main\java\ar\com\yazkychristian\mailapi\rest\CustomRestExceptionHandler.java
+C:\Users\Christian\encodemmerce-workspace\mail-api\src\main\java\ar\com\yazkychristian\mailapi\MailApiApplication.java
+C:\Users\Christian\encodemmerce-workspace\mail-api\src\main\java\ar\com\yazkychristian\mailapi\controllers\MailController.java
+C:\Users\Christian\encodemmerce-workspace\mail-api\src\main\java\ar\com\yazkychristian\mailapi\config\AppConfig.java
+C:\Users\Christian\encodemmerce-workspace\mail-api\src\main\java\ar\com\yazkychristian\mailapi\ServletInitializer.java
+C:\Users\Christian\encodemmerce-workspace\mail-api\src\main\java\ar\com\yazkychristian\mailapi\beans\SendMailRequest.java
+C:\Users\Christian\encodemmerce-workspace\mail-api\src\main\java\ar\com\yazkychristian\mailapi\rest\ApiError.java

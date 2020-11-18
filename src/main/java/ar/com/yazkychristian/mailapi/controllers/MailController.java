@@ -16,7 +16,7 @@ import ar.com.yazkychristian.mailapi.beans.SendMailRequest;
 import ar.com.yazkychristian.mailapi.services.EmailService;
 
 @RestController
-@RequestMapping("mail")
+@RequestMapping("/mail")
 public class MailController {
 	
 	@Autowired

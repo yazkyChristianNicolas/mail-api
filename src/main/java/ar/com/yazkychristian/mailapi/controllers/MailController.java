@@ -11,6 +11,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.yazkychristian.apicommons.api.MessageResponse;
 
 import ar.com.yazkychristian.mailapi.beans.SendMailRequest;
 import ar.com.yazkychristian.mailapi.services.EmailService;
@@ -25,10 +26,10 @@ public class MailController {
     private static final Logger logger = LogManager.getLogger(MailController.class.getName());
 	
 	@PostMapping()
-	public ResponseEntity<?> sendMail(@Valid @RequestBody SendMailRequest mailRequest){
+	public ResponseEntity<?> sendMail(@Valid @RequestBody SendMailRequest mailRequest) throws Exception{
 		logger.info("Send Email");
 		logger.info(mailRequest.toString());
-		
-		return ResponseEntity.ok(mailRequest);
+		emailService.sendMail(mailRequest);
+		return ResponseEntity.ok(new MessageResponse("Mail enviado con éxito"));
 	}
 }

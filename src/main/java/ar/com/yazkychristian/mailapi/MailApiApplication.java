@@ -42,4 +42,5 @@ public class MailApiApplication {
 		cfg.setFallbackOnNullLoopVariable(false);
 		return cfg;
 	}
+	
 }
